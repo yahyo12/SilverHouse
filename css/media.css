@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .about-right {
+        margin-top: 30px;
+    }
+
+    .about-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 80px;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .foot-left img{
+        width: 120px;
+    }
+    .foot-right p{
+        font-size: 14px;
+    }
+    
+    .foot {
+        padding: 15px 0;
+        column-gap: 30px;
+    }
+}
